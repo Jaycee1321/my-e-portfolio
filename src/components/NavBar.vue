@@ -18,7 +18,7 @@
 
         <!-- Download CV Button -->
         <a
-          href="/files/airline mockup.png" 
+          href="/files/JCLavaro_CV.pdf" 
           class="btn-download-cv ms-3"
           target="_blank"
           download
