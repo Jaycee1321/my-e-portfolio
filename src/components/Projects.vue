@@ -147,3 +147,128 @@
 	})
 
 </script>
+
+<style scoped>
+	#projects {
+	    background-color: white !important;
+	}
+
+	#projects h2 {
+	    font-weight: 700;
+	    color: #dc8696; /* deep navy title */
+	    text-align: center;
+	    margin-bottom: 2.5rem;
+	}
+
+	/* Fade-in and slide-up animation */
+	@keyframes fadeInUp {
+	  0% {
+	    opacity: 0;
+	    transform: translateY(20px);
+	  }
+	  100% {
+	    opacity: 1;
+	    transform: translateY(0);
+	  }
+	}
+
+	/* Project Card */
+	.project-card {
+	    background: #fff;
+	    border-radius: 12px;
+	    overflow: hidden;
+	    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease;
+	    cursor: pointer;
+
+	    opacity: 0;              /* start hidden */
+	    transform: translateY(20px);
+	    animation: fadeInUp 0.6s ease forwards;
+	}
+
+	/* Stagger animation for cards */
+	.row .col-md-4:nth-child(1) .project-card { animation-delay: 0.1s; }
+	.row .col-md-4:nth-child(2) .project-card { animation-delay: 0.2s; }
+	.row .col-md-4:nth-child(3) .project-card { animation-delay: 0.3s; }
+	.row .col-md-4:nth-child(4) .project-card { animation-delay: 0.4s; }
+	.row .col-md-4:nth-child(5) .project-card { animation-delay: 0.5s; }
+	.row .col-md-4:nth-child(6) .project-card { animation-delay: 0.6s; }
+	.row .col-md-4:nth-child(7) .project-card { animation-delay: 0.7s; }
+	.row .col-md-4:nth-child(8) .project-card { animation-delay: 0.8s; }
+
+	/* Hover effect: lift + scale + shadow */
+	.project-card:hover {
+	    transform: translateY(-8px) scale(1.02);
+	    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+	}
+
+	/* Image inside card */
+	.project-card img {
+	    width: 100%;
+	    height: 200px;
+	    object-fit: cover;
+	    transition: transform 0.4s ease;
+	}
+
+	/* Image zoom on hover */
+	.project-card:hover img {
+	    transform: scale(1.05);
+	}
+
+	/* Card content */
+	.project-content {
+	    padding: 1rem;
+	}
+
+	/* Titles */
+	.project-content h3 {
+	    font-size: 1.25rem;
+	    font-weight: 600;
+	    color: #b8789a;
+	    margin-bottom: 0.5rem;
+	}
+
+	/* Descriptions */
+	.project-content p {
+	    margin: 0;
+	    font-size: 0.95rem;
+	    color: #32353a;
+	    font-family: "Poppins", sans-serif;
+	    font-weight: 300;
+	    font-style: normal;
+	}
+
+	/* Short vs Long Descriptions */
+	.short-desc,
+	.long-desc {
+	    overflow: hidden;
+	    transition: all 0.4s ease;
+	}
+
+	/* Short description visible by default */
+	.short-desc {
+	    opacity: 1;
+	    max-height: 100px;
+	}
+
+	/* Long description hidden by default */
+	.long-desc {
+	    opacity: 0;
+	    max-height: 0;
+	    margin-top: 0;
+	}
+
+	/* Swap descriptions on hover */
+	.project-card:hover .short-desc {
+	    opacity: 0;
+	    max-height: 0;
+	    margin: 0;
+	}
+
+	.project-card:hover .long-desc {
+	    opacity: 1;
+	    max-height: 300px; /* allow space for full text */
+	    margin-top: 0.5rem;
+	}
+
+</style>

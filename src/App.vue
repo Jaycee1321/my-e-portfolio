@@ -6,7 +6,6 @@
     <Projects/>
     <Tools/>
     <Contacts/>
-    <FooterComponent/>
 
 
 </template>
@@ -17,5 +16,4 @@
   import Projects from './components/Projects.vue'
   import Tools from './components/Tools.vue'
   import Contacts from './components/Contacts.vue'
-  import FooterComponent from './components/FooterComponent.vue'
 </script>
