@@ -72,7 +72,7 @@
               <!-- Contact Info -->
               <div class="contact-info" style="font-size: 0.95rem; color: #32353a;">
                 <span>Email: jayceel1321@gmail.com</span><br>
-                <span>Phone: +63 991 1688 5983</span>
+                <span>Phone: +63 991 688 5983</span>
               </div>
 
               <!-- reCAPTCHA -->
