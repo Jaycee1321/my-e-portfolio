@@ -5,6 +5,7 @@
     <Landing/>
     <Projects/>
     <Tools/>
+    <Certificates/>
     <Contacts/>
 
 
@@ -16,4 +17,5 @@
   import Projects from './components/Projects.vue'
   import Tools from './components/Tools.vue'
   import Contacts from './components/Contacts.vue'
+  import Certificates from './components/Certificates.vue'
 </script>
