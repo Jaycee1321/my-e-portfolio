@@ -45,6 +45,19 @@
           </a>
         </div>
 
+        <!-- JAVA SC CERT -->
+        <div class="col-md-4">
+         <a href="http://share.zertify.zuitt.co/certificate/3abbd76c-837c-4c2c-8b71-ad907465641e" target="_blank">
+          <div class="certificate-card">
+            <img src="/images/Zuitt Cert Intro Java.jpeg" alt="Certificate 3">
+            <div class="certificate-content">
+              <h3>Intro to Java</h3>
+              <p>Zuitt Coding Bootcamp Certificate</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
