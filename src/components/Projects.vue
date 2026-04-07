@@ -7,7 +7,7 @@
 
 	       <!-- Project Card: E-commerce App -->
 	       <div class="col-md-4">
-	       	<a href="http://zuitt-bootcamp-prod-582-9211-lavaro.s3-website.us-east-1.amazonaws.com/" target="_blank">
+	       	<a href="https://zarizari.vercel.app/" target="_blank">
 	         <div class="project-card">
 	           <img src="/images/ZariZari.png" alt="E-commerce App">
 	           <div class="project-content">
