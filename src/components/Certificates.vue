@@ -89,12 +89,6 @@
   </section>
 </template>
 
-
-<script setup>
-// no need for computed or ProjectCard
-</script>
-
-
 <style scoped>
 
 #certificates {
