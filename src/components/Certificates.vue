@@ -64,7 +64,20 @@
           <div class="certificate-card">
             <img src="/images/Zuitt Cert Intro SpringBoot.jpeg" alt="Certificate 3">
             <div class="certificate-content">
-              <h3>Intro to Java</h3>
+              <h3>Intro to SpringBoot</h3>
+              <p>Zuitt Coding Bootcamp Certificate</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <!-- PYTHON SC CERT -->
+        <div class="col-md-4">
+         <a href="https://share.zertify.zuitt.co/certificate/cd135d6a-21a1-464b-bf73-ab7e1e0590bc/" target="_blank">
+          <div class="certificate-card">
+            <img src="/images/Zuitt Cert Intro Python.jpeg" alt="Certificate 3">
+            <div class="certificate-content">
+              <h3>Intro to Python</h3>
               <p>Zuitt Coding Bootcamp Certificate</p>
             </div>
           </div>

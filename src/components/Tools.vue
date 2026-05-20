@@ -7,7 +7,7 @@
 
         <!-- Frontend -->
         <div class="col-md-4">
-          <h3 class="tools-category">Frontend</h3>
+          <h3 class="tools-category" style="color: #061e48;">Frontend</h3>
           <div class="tech-item-holder">
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
@@ -15,24 +15,42 @@
               </div>
               <span>HTML</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-icons">
               </div>
               <span>CSS</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" class="tech-icons">
               </div>
               <span>JavaScript</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="tech-icons">
               </div>
               <span>Bootstrap</span>
             </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" class="tech-icons">
+              </div>
+              <span>Vue.js</span>
+            </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icons">
+              </div>
+              <span>React</span>
+            </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="/images/Vercel_favicon.svg" alt="Vercel" class="tech-icons">
@@ -44,62 +62,71 @@
 
         <!-- Backend -->
         <div class="col-md-4">
-          <h3 class="tools-category">Backend</h3>
+          <h3 class="tools-category" style="color: #061e48;">Backend</h3>
           <div class="tech-item-holder">
+            
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="tech-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-icons">
               </div>
-              <span>Node.js</span>
+              <span>Python</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" class="tech-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" class="tech-icons">
               </div>
-              <span>Express.js</span>
+              <span>Django</span>
             </div>
-            <div class="tech-child" data-aos="fade-down">
-              <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="tech-icons">
-              </div>
-              <span>MongoDB</span>
-            </div>
-            <div class="tech-child" data-aos="fade-down">
-              <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icons">
-              </div>
-              <span>React</span>
-            </div>
-            <div class="tech-child" data-aos="fade-down">
-              <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" class="tech-icons">
-              </div>
-              <span>Vue.js</span>
-            </div>
-            <div class="tech-child" data-aos="fade-down">
-              <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="tech-icons">
-              </div>
-              <span>C#</span>
-            </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="tech-icons">
               </div>
               <span>Java</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
-                <img src="/images/render.avif" alt="Java" class="tech-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" class="tech-icons">
               </div>
-              <span>Render</span>
+              <span>Spring Boot</span>
             </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="tech-icons">
+              </div>
+              <span>MySQL</span>
+            </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="tech-icons">
+              </div>
+              <span>Node.js</span>
+            </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" class="tech-icons">
+              </div>
+              <span>Express.js</span>
+            </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="tech-icons">
+              </div>
+              <span>MongoDB</span>
+            </div>
+
           </div>
         </div>
 
         <!-- Other Tools & Skills -->
         <div class="col-md-4">
-          <h3 class="tools-category">Other Tools & Skills</h3>
+          <h3 class="tools-category" style="color: #061e48;">Other Tools & Skills</h3>
           <div class="tech-item-holder">
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
@@ -107,36 +134,56 @@
               </div>
               <span>Git</span>
             </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" class="tech-icons">
+              </div>
+              <span>AWS</span>
+            </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="/images/render.avif" alt="Render" class="tech-icons">
+              </div>
+              <span>Render</span>
+            </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="tech-icons">
               </div>
               <span>GitHub</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" class="tech-icons">
               </div>
               <span>Postman</span>
             </div>       
-            <div class="tech-child" data-aos="fade-down">
-              <div class="tech-child-child">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" class="tech-icons">
-              </div>
-              <span>Canva</span>
-            </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="/images/Microsoft_Office.png" alt="MS Office" class="tech-icons">
               </div>
               <span>MS Office</span>
             </div>
+
+            <div class="tech-child" data-aos="fade-down">
+              <div class="tech-child-child">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" class="tech-icons">
+              </div>
+              <span>Canva</span>
+            </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="/images/procreate-icon.png" alt="Procreate" class="tech-icons">
               </div>
               <span>Procreate</span>
             </div>
+
             <div class="tech-child" data-aos="fade-down">
               <div class="tech-child-child">
                 <img src="/images/pixel-art-icon.png" alt="Pixel Art" class="tech-icons">
